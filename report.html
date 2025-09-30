@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Tracker - Report</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Meal Report</h2>
+        <div id="mealRecords"></div>
+        
+        <div class="legend">
+            <div class="legend-item">
+                <div class="food-dot grains"></div>
+                <span>Grains</span>
+            </div>
+            <div class="legend-item">
+                <div class="food-dot protein"></div>
+                <span>Protein</span>
+            </div>
+            <div class="legend-item">
+                <div class="food-dot vegetables"></div>
+                <span>Vegetables</span>
+            </div>
+            <div class="legend-item">
+                <div class="food-dot fruits"></div>
+                <span>Fruits</span>
+            </div>
+            <div class="legend-item">
+                <div class="food-dot dairy"></div>
+                <span>Dairy</span>
+            </div>
+            <div class="legend-item">
+                <div class="food-dot snacks"></div>
+                <span>Snacks</span>
+            </div>
+        </div>
+        
+        <div class="report-summary">
+            <p><strong>Report:</strong> <span id="reportText">Today you ate 0 meals.</span></p>
+        </div>
+
+        <div class="button-container"></div>
+        <button class="back-home" onclick="location.href='index.html'"> Back</button>
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

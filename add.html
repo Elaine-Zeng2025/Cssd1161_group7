@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Meal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Add Your Meal</h2>
+        <form id="mealForm">
+            <div class="form-group">
+                <label for="mealName">Name:</label>
+                <input type="text" id="mealName" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="mealType">This is your:</label>
+                <select id="mealType" required>
+                    <option value="">Select meal type</option>
+                    <option value="breakfast">Breakfast</option>
+                    <option value="lunch">Lunch</option>
+                    <option value="dinner">Dinner</option>
+                    <option value="brunch">Brunch</option>
+                    <option value="snack">Snack</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="mealTime">It's on:</label>
+                <input type="time" id="mealTime" required>
+            </div>
+            
+            <div class="form-group">
+                <label>It includes:</label>
+                <div class="checkbox-container">
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="grains" value="grains">
+                        <label for="grains">Grains</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="protein" value="protein">
+                        <label for="protein">Protein</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="vegetables" value="vegetables">
+                        <label for="vegetables">Vegetables</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="fruits" value="fruits">
+                        <label for="fruits">Fruits</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="dairy" value="dairy">
+                        <label for="dairy">Dairy</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="snacks" value="snacks">
+                        <label for="snacks">Snacks</label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-buttons">
+                <button type="button" onclick="location.href='index.html'">Cancel</button>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
