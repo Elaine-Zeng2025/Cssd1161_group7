@@ -1,67 +1,67 @@
-\# Architecture \& Components
+# Architecture \& Components
 
 
 
-\## Context
+## Context
 
 This section outlines the system architecture for MealTracker application.
 
 
 
-\## Content
+## Content
 
 
 
-\### System Architecture
+### System Architecture
 
-\*\*Three-tier architecture:\*\*
+**Three-tier architecture:**
 
-\- \*\*Presentation Layer:\*\* User interface for input and reports
+- **Presentation Layer:** User interface for input and reports
 
-\- \*\*Business Logic Layer:\*\* Process meal data and generate reports
+- **Business Logic Layer:** Process meal data and generate reports
 
-\- \*\*Data Layer:\*\* Database storage
-
-
-
-\### Key Components
+- **Data Layer:** Database storage
 
 
 
-\#### 1. Meal Input Module
-
-\- Capture meal time and food items
-
-\- Validate input
-
-\- Save to database
+### Key Components
 
 
 
-\#### 2. Nutrition Categorization Module
+#### 1. Meal Input Module
 
-\- Manage 6 nutrient categories (grains, protein, vegetables, fruits, dairy, snacks)
+- Capture meal time and food items
 
-\- Tag food items with categories
+- Validate input
 
-\- Calculate totals
-
-
-
-\#### 3. Report Generation Module
-
-\- Retrieve meal data
-
-\- Calculate nutritional distribution
+- Save to database
 
 
 
-\## Decisions
+#### 2. Nutrition Categorization Module
 
-\- Use three-tier architecture — Team, Oct 7, 2025
+- Manage 6 nutrient categories (grains, protein, vegetables, fruits, dairy, snacks)
+
+- Tag food items with categories
+
+- Calculate totals
 
 
 
-\## Next Steps
+#### 3. Report Generation Module
 
-\- \[ ] Select database technology
+- Retrieve meal data
+
+- Calculate nutritional distribution
+
+
+
+## Decisions
+
+- Use three-tier architecture — Team, Oct 7, 2025
+
+
+
+## Next Steps
+
+- [ ] Select database technology
