@@ -10,11 +10,11 @@ This section identifies risks and constraints for MealTracker development.
 ### Technical Risks
 
 #### Risk 1: Manual Input Tedious
-- **Impact:** Users may abandon app
-- **Mitigation:** quick-add templates
+- **Impact:** Users may abandon app,because they may have to spend a lot of time to add a meal,so it will be hard to keep.
+- **Mitigation:** quick-add templates,just some checkbox.
 
 #### Risk 2: Slow Report Generation
-- **Impact:** Poor user experience
+- **Impact:** Poor user experience,like they may think it's too s
 - **Mitigation:** Use database indexing, caching
 
 ### Project Constraints
