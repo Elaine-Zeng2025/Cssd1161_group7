@@ -1,4 +1,4 @@
-# Architecture \& Components
+# Architecture & Components
 
 
 
