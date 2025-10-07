@@ -20,12 +20,12 @@ This section identifies risks and constraints for MealTracker development.
 ### Project Constraints
 
 #### Time Constraint
-- **Issue:** Must complete in 12-14 weeks
+- **Issue:** Must complete the app function in several weeks
 - **Strategy:** Focus on core features first
 
 #### Team Constraint
 - **Issue:** 4 students with varying skills
-- **Strategy:** Pair programming, knowledge sharing
+- **Strategy:** Pair programming, knowledge sharing,we just study together
 
 #### Technology Constraint
 - **Issue:** Limited to course technologies
