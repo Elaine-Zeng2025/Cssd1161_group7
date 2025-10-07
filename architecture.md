@@ -54,18 +54,6 @@ This section outlines the system architecture for MealTracker application.
 
 \- Calculate nutritional distribution
 
-\- Generate charts (pie/bar charts)
-
-
-
-\#### 4. Database Component
-
-\- Store user data
-
-\- Store meal records
-
-\- Store food items with categories
-
 
 
 \## Decisions
@@ -76,7 +64,4 @@ This section outlines the system architecture for MealTracker application.
 
 \## Next Steps
 
-\- \[ ] Select database technology (Student 2, Oct 10)
-
-\- \[ ] Design database schema (Student 3, Oct 12)
-
+\- \[ ] Select database technology
