@@ -45,5 +45,5 @@ This section defines data structures and content for MealTracker.
 Use 6 nutrient categories — Team, Oct 7, 2025
 
 ## Next Steps
--[]Create database schema (Student 3, Oct 12)
--[]Prepare sample test data (Student 3, Oct 15)
+- [ ]Create database schema (Student 3, Oct 12)
+- [ ]Prepare sample test data (Student 3, Oct 15)
