@@ -38,7 +38,7 @@ This section defines data structures and content for MealTracker.
       {"name": "Milk", "categories": ["dairy"]}
     ]
   }
-} 
+} ```
 
 ## Decisions
 Use 6 nutrient categories — Team, Oct 7, 2025
