@@ -13,3 +13,8 @@ All team members should join meetings on time and come prepared by reviewing the
 
 ### Pull Request Tone
 PR reviews should be constructive and respectful, focusing on the code not the person. Use "we" instead of "you" when suggesting improvements (e.g., "We could improve this by..." instead of "You should..."), and always include at least one positive comment along with any requested changes.
+
+### Bullet pointed from Activity 2
+[] AI reminders (e.g. "You've been low on protein lately, here's a quick chicken pasta recipe")
+[] Earn badges or that fire emoji streak (e.g. You've been consistent for 7 days now, nice work!)
+[] Give AI - driven recomendations that pop up related to your personalized goals!
